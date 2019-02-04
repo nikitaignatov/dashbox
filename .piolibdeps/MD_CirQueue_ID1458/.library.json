@@ -1,0 +1,56 @@
+{
+    "name": "MD_CirQueue", 
+    "version": "1.0.2", 
+    "keywords": [
+        "data", 
+        "storage"
+    ], 
+    "description": "Library for FIFO queue implemented as a Ring Buffer.", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "authors": [
+        {
+            "email": null, 
+            "url": null, 
+            "maintainer": false, 
+            "name": "majicDesigns"
+        }, 
+        {
+            "email": "8136821@gmail.com", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "marco_c"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/MajicDesigns/MD_CirQueue"
+    }, 
+    "homepage": "http://github.com/MajicDesigns/MD_CirQueue", 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 1458
+}
